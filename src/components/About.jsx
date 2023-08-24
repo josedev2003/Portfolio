@@ -1,3 +1,10 @@
+import React from "react";
+import Curriculo from "../img/curriculo.pdf";
+import imagemMe from "../img/myimg.svg"
+import Slider from "./slider"
+import VideoBG from "../img/videobg.mp4"
+
+import "../styles/components/about.css"
 
 const About = () => {
     return (
@@ -16,11 +23,15 @@ const About = () => {
                 Objetivos Futuros: 
                 Aspiro construir uma carreira sólida como programador, impactando positivamente o mundo com soluções inovadoras e transformadoras. <br /><br />
                 </p>
+                <a href={Curriculo} download={Curriculo} className="buttonn"> 
+                    <button> Currículo (PDF) </button>
+                </a>
                 
             </div>
+            <img  className="imagem" src={imagemMe} alt="" /> 
            <div className="slider-about">  
-           </div>
-           
+            <Slider/>
+          </div>
       </div>   
     );
 };
