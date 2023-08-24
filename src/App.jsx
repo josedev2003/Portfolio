@@ -7,7 +7,6 @@ function App() {
 
   return (
       <div id="portfolio">
-        <h1>react teste</h1>
         <Navbar/>
         <MainContent/>
         <About/>

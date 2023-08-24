@@ -1,5 +1,12 @@
 import React from 'react'
 import VideoBG from "../img/videobg.mp4"
+import imagem from "../img/imghome.svg"
+
+import "../styles/components/maincontent.css"
+
+import Linkedin from "./visualizarLK";
+import GitHub from "./visualizarGH";
+
 
 
 
@@ -14,8 +21,11 @@ const MainContent = () => {
                <p id="p-home">OLA!! ME CHAMO:</p>
                <h1 id="h1-home">JOSÉ HENRIQUE</h1>
                <div className="buttonn">
+                <Linkedin/>
+                <GitHub/>
                </div>
            </div>
+           <img  className="imagem" src={imagem} alt="" /> 
      </div>   
   )
 }

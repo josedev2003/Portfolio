@@ -1,6 +1,6 @@
 .navbar{
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@
 }
 .navbar h1{
     text-decoration: none;
-    color: #190808;
+    color: #ffffff;
     display: inline;
 }
 .navbar h1:hover{
@@ -24,7 +24,7 @@
 
 @media screen and (max-width:694px) {
     .navbar{
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
 }
         
