@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar.jsx";
 import MainContent from "./components/MainContent.jsx"
 import About from "./components/About.jsx";
+import Project from "./components/project.jsx";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Navbar/>
         <MainContent/>
         <About/>
+        <Project/>
       </div>
   )
 }
