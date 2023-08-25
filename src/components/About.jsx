@@ -2,7 +2,6 @@ import React from "react";
 import Curriculo from "../img/curriculo.pdf";
 import imagemMe from "../img/myimg.svg"
 import Slider from "./slider"
-import VideoBG from "../img/videobg.mp4"
 
 import "../styles/components/about.css"
 

@@ -1,6 +1,6 @@
 import "../styles/components/visualizar.css"
 
-const url = 'https://snake-game-ashy-iota.vercel.app';
+const url = 'https://snakegamebyjose.vercel.app';
 
 function SnakeGame () {
 

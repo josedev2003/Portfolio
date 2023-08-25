@@ -1,5 +1,5 @@
 import React from 'react'
-import VideoBG from "../img/videobg.mp4"
+import VideoTS from "../img/videots.mp4"
 import imagem from "../img/imghome.svg"
 
 import "../styles/components/maincontent.css"
@@ -15,7 +15,7 @@ const MainContent = () => {
 
       <div className='container' >
            <video 
-               src={VideoBG} autoPlay muted loop className='video-gb' >
+               src={VideoTS} autoPlay muted loop className='video-gb' >
            </video> 
           <div className="text">
                <p id="p-home">OLA!! ME CHAMO:</p>

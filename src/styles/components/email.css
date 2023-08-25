@@ -1,0 +1,71 @@
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 25rem;
+    height: 33rem;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: transparent ;
+    color: #f0f8ff;
+    box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff, 0 0 50px #00ffff;
+    border-radius: 2rem;
+}
+
+form input{
+    font-family: 'Julius Sans One', sans-serif;
+
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 17rem;
+    
+    background-color: transparent ;
+    color: #f0f8ff;
+
+    box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff;
+    border-radius: 1rem;
+}
+
+form textarea{
+    margin-bottom: 10px;
+    padding: 5rem;
+    
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: transparent ;
+    color: #f0f8ff;
+    box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff;
+    border-radius: 1rem;
+}
+form button {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    form{
+        width: 20rem;
+        height: 33rem;
+        padding: 16px;
+        gap: 0.3rem;;
+    }
+    
+    form input{
+        padding: 10px;
+        width: 17rem;
+    }
+    
+    form textarea{
+        margin-bottom: 10px;
+        padding: 2rem;
+    }
+}
