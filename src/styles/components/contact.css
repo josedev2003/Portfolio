@@ -1,3 +1,12 @@
+.container-contact .video-gb{
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
 
 .container-contact{
     margin-top: 30rem;

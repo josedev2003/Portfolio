@@ -5,10 +5,15 @@ import Slider from "./slider"
 
 import "../styles/components/about.css"
 
+import VideoTS from "../img/videots.mp4"
+
 const About = () => {
     return (
       
       <div className='container-about' >
+            <video 
+               src={VideoTS} autoPlay muted loop className='video-gb' >
+           </video> 
            <div className="text-about">
                <h1>Sobre mim</h1>
                 <p>
