@@ -7,13 +7,13 @@ const CardComingSoon = () => {
         <div className="container-card">
             <div class="card">
                 <div className="img-card-ComingSoon">
-                    <span>Coming soon</span>
+                    <span>Em Breve . . .</span>
                 </div>
 
                 <div className="content-card">
                     <span className="title">Descrição :</span>
                     <p className="desc">
-                     <strong>Coming Soon.  .  .  .  .</strong><br />
+                     <strong>Em Breve.  .  .  .  .</strong><br />
                     </p>
                 </div>
                 

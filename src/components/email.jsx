@@ -17,7 +17,7 @@ const Formulario = () => {
                 <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
                 <button type="submit">Enviar</button>
                 <input type="hidden" name="accessKey" value="069da49b-e461-4165-bcd6-8a9203fe65c3"></input>
-                <input type="hidden" name="redirectTo" value="http://localhost:5173"></input>
+                <input type="hidden" name="redirectTo" value="https://portfoliobyjose.vercel.app"></input>
             </form>
         </section>
       

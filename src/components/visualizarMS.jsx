@@ -1,6 +1,6 @@
 import "../styles/components/visualizar.css"
 
-const url = "";
+const url = "https://portfoliobyjose.vercel.app";
 
 function Mysite () {
 

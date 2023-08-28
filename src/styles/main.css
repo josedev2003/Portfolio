@@ -4,3 +4,6 @@
     font-family: 'Julius Sans One', sans-serif;
 }
 
+#detach-button-host{
+    display: none;
+}

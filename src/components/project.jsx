@@ -15,7 +15,7 @@ const Project = () => {
            src={VideoTS} autoPlay muted loop className='video-gb' >
        </video> 
       <div className="box-h1-project">
-        <h1 id="h1-project">Projects</h1>
+        <h1 id="h1-project">Projetos</h1>
       </div>
       <div className="text-project">
         <CardSnake/>

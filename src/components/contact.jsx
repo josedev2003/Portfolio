@@ -12,7 +12,7 @@ const Contact = () => {
              <video 
                src={VideoTS} autoPlay muted loop className='video-gb' >
            </video>
-            <h3>Contact</h3>
+            <h3>Contato</h3>
              <Formulario/>
        </div>
     );

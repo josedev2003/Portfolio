@@ -1,6 +1,6 @@
 .container-contact .video-gb{
     width: 100%;
-    height: 200%;
+    height: 100%;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -11,7 +11,6 @@
 .container-contact{
     margin-top: 1rem;
     padding-top: 1rem;
-  
 }
 
 .container-contact h3{
@@ -38,6 +37,10 @@
         margin-top: 1rem;
     }
 
+    .container-contact .video-gb{
+        height: 120%;
+    }
+
     .container-contact h3{
     
         font-family: 'Julius Sans One', sans-serif;
@@ -46,9 +49,6 @@
         margin-bottom: 4rem;
         margin-left: 8.5rem;
     }
-
-
-  
 }
 
 
