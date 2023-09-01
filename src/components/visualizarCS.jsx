@@ -1,6 +1,6 @@
 import "../styles/components/visualizar.css"
 
-const url = '';
+const url = 'https://shoppingcartbyjose.vercel.app';
 
 function CoomingSoon () {
 

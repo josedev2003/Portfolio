@@ -7,13 +7,14 @@ const CardComingSoon = () => {
         <div className="container-card">
             <div class="card">
                 <div className="img-card-ComingSoon">
-                    <span>Em Breve . . .</span>
+                    <span>ShoppingCart</span>
                 </div>
 
                 <div className="content-card">
                     <span className="title">Descrição :</span>
                     <p className="desc">
-                     <strong>Em Breve.  .  .  .  .</strong><br />
+                     Destacando características como componentização e atualização em tempo real,
+                    a página de pesquisa de compras permite uma experiência de usuário suave e dinâmica.<strong>Tecnologias envolvidas : Biblioteca ReactJS</strong><br />
                     </p>
                 </div>
                 

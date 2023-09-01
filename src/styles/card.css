@@ -65,7 +65,7 @@
     justify-content: center;
     align-items: center;
     height: 8rem;
-    background-image: url('');
+    background-image: url('../img/shop-cart.png');
     background-size: cover;
     background-position: center;
     transition: all .5s;
