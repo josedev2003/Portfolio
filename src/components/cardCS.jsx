@@ -14,7 +14,7 @@ const CardComingSoon = () => {
                     <span className="title">Descrição :</span>
                     <p className="desc">
                      Destacando características como componentização e atualização em tempo real,
-                    a página de pesquisa de compras permite uma experiência de usuário suave e dinâmica.<strong>Tecnologias envolvidas : Biblioteca ReactJS</strong><br />
+                    a página de pesquisa de compras permite uma experiência de usuário suave e dinâmica. <br/> <strong>Tecnologias envolvidas : Biblioteca ReactJS</strong><br />
                     </p>
                 </div>
                 

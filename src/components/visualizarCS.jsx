@@ -9,7 +9,7 @@ function CoomingSoon () {
     }
     return (
          <div>
-            <button hidden onClick={meuevento}> VISUALIZAR PROJETO </button>
+            <button onClick={meuevento}> VISUALIZAR PROJETO </button>
         </div>
     )
 }
